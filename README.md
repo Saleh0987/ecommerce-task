@@ -49,21 +49,6 @@ npm run build: Builds the app for production.
 npm test: Runs the unit tests using Jest.
 npm run lint: Lints the code using ESLint (if configured).
 
-Project Structure
-ecommerce-task/
-├── src/
-│ ├── components/ # Reusable React components (e.g., ProductCard, CartSidebar)
-│ ├── redux/ # Redux slices and store configuration
-│ │ ├── slices/ # Redux Toolkit slices (e.g., cartSlice, productsSlice)
-│ │ └── store.js # Redux store setup
-│ ├── utils/ # Utility functions (e.g., imageUtils)
-│ ├── pages/ # Page components (e.g., Home, Cart)
-│ ├── App.jsx # Main app component with routing
-│ └── main.jsx # Entry point for the app
-├── .env # Environment variables (e.g., VITE_BASE_URL)
-├── package.json # Project dependencies and scripts
-└── README.md # Project documentation
-
 Testing
 The project includes unit tests for key components like ProductCard and CartSidebar. To run the tests:
 npm test
