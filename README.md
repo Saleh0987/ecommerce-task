@@ -24,7 +24,7 @@ Jest: For unit testing.
 Installation
 
 Clone the repository:
-git clone https://github.com/your-username/ecommerce-task.git
+git clone https://github.com/Saleh0987/ecommerce-task
 cd ecommerce-task
 
 Install dependencies:
@@ -74,3 +74,6 @@ Rendering product details.
 Adding/removing items from the cart.
 Updating quantities.
 Clearing the cart.
+
+Live Link
+https://ecommerce-task-20.vercel.app/
